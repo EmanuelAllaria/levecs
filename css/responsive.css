@@ -1,0 +1,79 @@
+@media screen and (max-width: 768px) {
+    i.fa-bars {
+        display: block;
+    }
+    .nav {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-top: 54px;
+        background: #000;
+        width: 100%;
+        height: 100%;
+    }
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 65px;
+        gap: 5pc;
+    }
+    .nav ul li a {
+        color: #fff !important;
+    }
+
+    #inicio .bg_inicio img {
+        width: 80%;
+    }
+
+    #servicios .titulo_servicios h2 {
+        font-size: 30px;
+    }
+    #servicios .titulo_servicios p {
+        font-size: 30px;
+    }
+
+    #partners .bg_partners .partners .imgs_partners img {
+        width: 15%;
+        margin-left: 15px;
+    }
+
+    #contacto {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    #inicio .bg_inicio {
+        height: 50vh;
+    }
+
+    #servicios .titulo_servicios p {
+        font-size: 20px;
+    }
+
+    #partners .bg_partners .partners .titulo_partners img {
+        width: 25px;
+    }
+    #partners .bg_partners .partners .titulo_partners h3 {
+        font-size: 15px;
+    }
+    #partners .bg_partners .partners .titulo_partners .circles_partners i {
+        font-size: 10px;
+    }
+    #partners .bg_partners .partners .imgs_partners {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #partners .bg_partners .partners .imgs_partners img {
+        width: 50%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #servicios .titulo_servicios p {
+        display: none;
+    }
+}
