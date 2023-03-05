@@ -42,6 +42,18 @@
         flex-direction: column;
         gap: 10px;
     }
+
+    #nosotros .quienes_somos .texto_somos p, #nosotros .quienes_somos .texto_mision p, #nosotros .quienes_somos .texto_etc p {
+        font-size: inherit;
+    }
+
+    .momento img {
+        width: 100px;
+    }
+
+    .secciones {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 499px) {
