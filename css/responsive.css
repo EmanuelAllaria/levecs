@@ -54,6 +54,11 @@
     .secciones {
         flex-wrap: wrap;
     }
+
+
+    #nosotros .quienes_somos {
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 499px) {
