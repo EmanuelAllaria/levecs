@@ -437,3 +437,21 @@ hr {
 .info_contact h1 {
     font-size: 40px;
 }
+
+
+
+
+
+.slider {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slider div {
+    display: none;
+}
+  
+.slider div.active {
+    display: block;
+}
